@@ -1,0 +1,22 @@
+footer{
+   
+    grid-column: 1/5;
+    background-color: var(--cor1);
+    
+
+}
+footer p{
+    padding: 20px ;
+    font-size: 1.5rem;
+    color: var(--cor4);
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: "IBM Plex Mono", monospace;
+}
+/* Responsividade */
+@media (max-width:650px) {
+    footer{
+        grid-column: 1;
+    }
+}
