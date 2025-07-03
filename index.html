@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>National Geographic</title>
     <link rel="stylesheet" href="./src/css/style.css">
-    <script src="./src/script/script.js"></script>
+    <script type="module" src="./src/script/script.js" defer></script>
 </head>
 
 <body>
@@ -31,7 +31,7 @@
         <!--Inicio da Primeira sessão-->
         <section class="section-one grid-section" id="animais">
             <h1 class="titulos">National Geographic</h1>          
-                <ul class="animais-list">
+                <ul class="animais-list" data-tab="animais">
                     <li><img src="src/img/raposa.jpg" alt="Imagem de uma Raposa" title="Raposa"></li>
                     <li><img src="src/img/esquilo.jpg" alt="Imagem de um Esquilo" title="Esquilo"></li>
                     <li><img src="src/img/urso.jpg" alt="Imagem de Urso" title="Urso"></li>
@@ -39,38 +39,30 @@
                     <li><img src="src/img/babuino.jpg" alt="Imagem de um Babuino" title="babuino"></li>
                     <li><img src="src/img/leão.jpg" alt="Imagem de um Leão" title="Leão"></li>
                 </ul>
-            <div class="animais-description">
-                <section>
+            <div class="animais-description" data-tab="description">
+                <section data-anima="anima-right">
                     <h2>Raposa</h2>
                     <p>Raposas são pequenos a médios mamíferos onívoros pertencentes a vários gêneros da família Canidae. As raposas têm o crânio achatado, orelhas triangulares verticais, focinho pontiagudo e ligeiramente arrebitado e uma cauda longa e espessa.</p>
                 </section>
-                <section>
+                <section data-anima="anima-right">
                     <h2>Esquilo</h2>
                     <p>Os esquilos pertencem a uma grande família de mamíferos roedores, de pequeno e médio porte, conhecida como Sciuridae. No Brasil, são também conhecidos como serelepe, caxinguelê, caxinxe[1], quatimirim[2], quatipuru[2], agutipuru[3] ou acutipuru[4]. Na Galiza e em algumas zonas de Portugal, também são conhecido por esquio[5].</p>
                 </section>
-                <section>
+                <section data-anima="anima-right">
                     <h2>Urso</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eius sunt accusamus facilis fugit
-                        autem voluptate! Sint tempora, excepturi molestias dolores quas eos dolorem unde, tenetur in,
-                        incidunt repellat veritatis!</p>
+                    <p>Os Ursos <strong> (latim científico: Ursidae)</strong> constituem uma família de mamíferos carnívoros de grande porte, contendo os ursos e os pandas. Eles são classificados como caníformes ou carnivoros caninos. Os ursos são encontrados nos continentes da América do Norte, América do Sul, Europa e Ásia. As características comuns dos ursos modernos incluem corpos grandes com pernas atarracadas, focinhos longos, orelhas pequenas e arredondadas, cabelos desgrenhados, patas plantígradas com cinco garras não retráteis e caudas curtas.</p>
                 </section>
-                <section>
+                <section data-anima="anima-right">
                     <h2>Lobo</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dignissimos deleniti autem
-                        corporis neque quis voluptas doloremque facere, quam voluptates animi necessitatibus cumque
-                        aperiam vero. Amet totam adipisci aut temporibus?</p>
+                    <p>O lobo é um animal carnívoro da família dos canídeos, pertencente ao gênero Canis. Existem três espécies principais: lobo-cinzento (Canis lupus), lobo-etíope (Canis simensis) e lobo-vermelho (Canis rufus). Os lobos são conhecidos por seu comportamento social, vivendo em grupos chamados alcateias, e têm um papel importante nos ecossistemas como predadores. Eles habitam diversas regiões, desde florestas até tundras, e se alimentam principalmente de ungulados, mas também podem caçar pequenos mamíferos.</p>
                 </section>
-                <section>
+                <section data-anima="anima-right">
                     <h2>Babuino</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et eius aut corporis voluptate
-                        reiciendis aliquam praesentium inventore sit. Cumque architecto rerum repudiandae laboriosam
-                        praesentium quidem sit voluptatum soluta, numquam in!</p>
+                    <p>Babuíno (do francês babouin) é a designação genérica para antropoides cercopitecídeos do gênero Papio e afins, caracterizados pelo focinho pontudo, caninos grandes, bochechas volumosas e calosidades nas nádegas. É um animal semi-quadrúpede da ordem dos primatas que mede até 120 centímetros de comprimento. Vive na África e seu habitat natural é nos campos abertos (savana, pastagens ou terrenos rochosos).</p>
                 </section>
-                <section>
+                <section data-anima="anima-right">
                     <h2>Leão</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur molestias veniam itaque,
-                        consequuntur iure tempore et dignissimos. Ratione voluptate delectus laborum. Explicabo
-                        recusandae asperiores doloribus iusto quas, nisi praesentium accusantium.</p>
+                    <p>O leão[3] [feminino: leoa] (nome científico: Panthera leo) é uma espécie de mamífero carnívoro do gênero Panthera e da família Felidae. A espécie é atualmente encontrada na África subsaariana e na Ásia, com uma única população remanescente em perigo, no Parque Nacional da Floresta de Gir, Gujarat, Índia. Foi extinto na África do Norte e no Sudoeste Asiático em tempos históricos, e até o Pleistoceno Superior, há cerca de 10 000 anos, era o mais difundido grande mamífero terrestre depois dos humanos, sendo encontrado na maior parte da África, em muito da Eurásia, da Europa Ocidental à Índia, e na América, do Yukon ao México. É um dos quatro grandes felinos, com alguns machos excedendo 250 quilogramas em peso, sendo o segundo maior felino recente depois do tigre.</p>
                 </section>
             </div>
         </section>
