@@ -18,11 +18,19 @@
                 <img src="src/img/Logo.png" alt="Imagem da logo">
             </div>
             <nav>
-                <ul>
+                <ul data-menu="list"="">
                     <li><a href="#animais">Animais</a></li>
                     <li><a href="#curiosidades">Curiosidades</a></li>
-                    <li><a href="#contatos"> Sobre</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li data-dropMenu="menuDrop"><a href="#">Sobre</a>
+                        <ul class="drop-dow-menu">
+                            <li><a href="">Empresa</a></li>
+                            <li><a href="">Equipe</a></li>
+                            <li><a href="">Serviços</a></li>
+                            <li><a href="">Parceiros</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="#contatos">Contato</a></li>
                     <li><a href="#">Login ⇛</a></li>
                 </ul>
             </nav>
