@@ -6,6 +6,7 @@
 }
 .list-curiosidades{
     grid-column: 2 / 4;
+    padding-right: 40px ;
 }
 .list-curiosidades dt{ 
     font-family: "IBM Plex Mono", monospace;
