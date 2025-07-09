@@ -14,7 +14,7 @@
     cursor: pointer;
     outline: none;
     color: var(--cor3);
-
+    user-select: none; /* É usada para impedir que o usuário selecione textos ou outros elementos da página*/
 }
 /* .preview{
 
