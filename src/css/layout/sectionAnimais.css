@@ -11,7 +11,7 @@
     scrollbar-color: var(--cor3) var(--cor5);
 }
 .animais-description{
-    
+    padding-right: 15px;
     grid-column: 3;
 }
 .animais-description > section{

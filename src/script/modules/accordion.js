@@ -10,14 +10,14 @@ export default function iniAccordion() {
         accordionList[0].nextElementSibling.classList.toggle('ativo');
         
         accordionList.forEach(itemDt => {
-             ["click, mouseenter"].forEach(itemEvent =>{
+             /* ["click", "mouseenter"].forEach(itemEvent =>{
                 itemDt.addEventListener(itemEvent, accordion)   
-            }); 
+            });  */
 
-        /*  itemDt.addEventListener('mousemove', () => {
+          itemDt.addEventListener('mousemove', () => {
             itemDt.style.cursor = "pointer";
             itemDt.addEventListener("click", accordion);            
-        }); */
+        }); 
 
         function accordion() {
             this.classList.toggle('ativo');
@@ -25,4 +25,3 @@ export default function iniAccordion() {
         };
     });
 };
-
